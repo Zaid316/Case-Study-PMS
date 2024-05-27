@@ -10,12 +10,12 @@ public class test1 {
     @Test
     public void emptest(){
 		Employee emp=new Employee();
-		emp.setId(13);
+		emp.setId(14);
 		emp.setName("Test");
 		emp.setDesignation("Test test");
 		emp.setGender("Male");
 		emp.setSalary(20000);
-		emp.setProject_id(1);
+		emp.setProject_id(2);
 		
 		boolean result=pri.createEmployee(emp);
 		assertTrue(result, "Employee creation Successful");
@@ -23,9 +23,8 @@ public class test1 {
 
     @Test
     public void taskTest(){
-
-        Task t = new Task();
-        t.setTask_id(11);
+       Task t = new Task();
+        t.setTask_id(12);
         t.setTask_name("Testing");
         t.setProject_id(1);
         t.setEmployee_id(1);
