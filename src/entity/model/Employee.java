@@ -7,7 +7,6 @@ public class Employee {
     public String gender;
     public double salary;
     public int project_id;
-    
 
 
 public Employee(){
